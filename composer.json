@@ -1,0 +1,7 @@
+{
+  "name":"undefinedfr/exec-scripts",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "description": "Scripts execution from Admin Dashboard",
+  "license": "GPL-3.0-or-later"
+}

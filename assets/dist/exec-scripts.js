@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){jQuery(".__loadAction").on("click",function(){var a=jQuery(this);a.prop("disabled",!0),a.closest(".item-action").addClass("loading");var b={action:"scripts_actions","undfd-action":a.data("action")};jQuery.post(ajaxurl,b,function(b){a.prop("disabled",!1),a.closest(".item-action").removeClass("loading")})})});
